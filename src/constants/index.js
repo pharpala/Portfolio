@@ -46,15 +46,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Automations Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Engineer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Technical Writer",
       icon: creator,
     },
   ];
@@ -116,50 +116,43 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Incoming Venture Capital & Business Analytics Extern",
+      company_name: "HP Tech Ventures",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2024 - August 2024",
+      points: [
+        ],
+    },
+    {
+      title: "Software Developer Intern",
+      company_name: "Teachify",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Feb 2024 - Apr 2024",
+      points: [
+        "At Teachify, I was able to experience the startup culture for the first time! I got to work on real-world projects and I saw my efforts have a tangible impact. I was able to lead enhacements on the company's website using React, and contributed to the documentation of many of the code changes and design updates in the team. My skills and confidence using these technologies went through the roof, as this hands-on experience in a fast-paced environment allowed me to gain a much deeper understanding of them.",
+      ],
+    },
+    {
+      title: "Software & Automations Developer",
+      company_name: "Google Developers Student Club",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Oct 2023 - April 2024",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Sales Associate",
+      company_name: "The Mint Company",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "May 2023 - Aug 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
