@@ -13,6 +13,13 @@
   color-scheme: dark;
 }
 
+.shine {
+  background: linear-gradient(90deg, #FFD700, #FFC700, #d9ae42);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
