@@ -13,6 +13,12 @@
   color-scheme: dark;
 }
 
+.hash-span {
+  position: absolute;
+  z-index: -1; /* Ensure it stays behind other content */
+}
+
+
 .shine {
   background: linear-gradient(90deg, #FFD700, #FFC700, #d9ae42);
   -webkit-background-clip: text;

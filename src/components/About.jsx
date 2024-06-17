@@ -59,12 +59,17 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]'
         >
-          I'm glad you found my site! I'm a <span className="">Full 
-          Stack Developer </span> & Student from Toronto
+          I'm glad you found my site! I'm a <span className="text-[#FFD700]">Full 
+          Stack Developer </span> & Student based from 
+          
+          <span className="text-[#ff0000]"> To</span>
+          <span className="text-[#ffffffdf]">ron</span>
+          <span className="text-[#FF0000]">to </span>
+          
           studying Computer Science. I love creating 
           beautiful apps and solving problems with my 
           code. When I'm not coding, you can catch me 
-          at the soccer field, and if you checked under 
+          at the soccer field, and if you even checked under 
           the corner flag and can't find me, I'm probably
           watching Porsche 911 reviews on YouTube (I 
           literally can't wait to get one).

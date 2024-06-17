@@ -33,7 +33,7 @@ const Hero = () => {
     mx-auto pb-10"> 
 
       <div className={`${styles.paddingX} absolute
-      inset-0 top-[90px] max-w-7xl mx-auto flex
+      inset-0 ${isMobile ? 'top-[140px]' : 'top-[90px]'} max-w-7xl mx-auto flex
       flex-row items-start gap-5 ]`}>
         <div className="flex flex-col
         justify-center items-center mt-5">
@@ -43,10 +43,11 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm <span className="text-[#915eff]">Pranay</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white 
+            ${isMobile ? 'text-[80px]' : 'text-[40px]'}`}> Hi, I'm <span className="text-[#915eff]">Pranay</span></h1>
           <p className={`${styles.heroSubText}
-          text-white-100`}>
-            I make front-end interfaces <br className="block sm:hidden"/> 
+          text-white-100 ${isMobile ? 'text-[25px]' : 'text-[16px]'}`} >
+            I make front-end interfaces <br className="block xs:hidden"/> 
             into <span className="shine"> pieces of art</span>.
           </p>
         </div>
