@@ -1,8 +1,8 @@
 import logo from "./portfolio-logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./backend-2.png";
+import creator from "./typewriter.png";
+import mobile from "./python-2.webp";
+import web from "./React-icon.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import hp from "./hp.png";
+import teachify from "./teachify.png";
+import gdsc from "./gdsc.png";
+import mint from "./mint.png";
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  hp,
+  teachify,
+  gdsc,
+  mint,
 };
