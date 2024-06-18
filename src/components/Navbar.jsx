@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo, menu, close, P, blackP} from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -27,7 +27,7 @@ const Navbar = () => {
           }}
           >
           <img
-            src={logo}
+            src={blackP}
             alt="logo"
             className="w-9 h-9 object-contain"
           />
@@ -62,7 +62,7 @@ const Navbar = () => {
               onClick={() => setToggle(!toggle)}
             />
             <div className={`${!toggle ? 'hidden'
-              :'flex' } p-6 black-gradient absolute
+              :'flex' } p-6 dark-violet-gradient absolute
               top-20 right-0 mx-4 my-2 min-w-[140px]
               z-10 rounded-xl`} >
               <ul className='list-none flex 

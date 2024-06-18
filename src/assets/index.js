@@ -6,6 +6,10 @@ import web from "./React-icon.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import resume from "./resume-2.png";
+import resumepdf from "./Pranay_Harpalani_resume.pdf";
+import P from "./pushing-p.png"
+import blackP from "./black-p.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,14 +29,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import hp from "./hp.png";
 import teachify from "./teachify.png";
 import gdsc from "./gdsc.png";
 import mint from "./mint.png";
+
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -67,4 +72,8 @@ export {
   teachify,
   gdsc,
   mint,
+  resume,
+  resumepdf,
+  P,
+  blackP
 };

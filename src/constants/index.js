@@ -151,7 +151,7 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - Aug 2023",
       points: [
-        "As my first real-world experience, I am eternally grateful to the company. This opportunity enabled me to understand the importance of team-work and providing value with your actions. The major improvement in my communication skills is my key takeaway from this experience. I wouldn't be as big of an extrovert as I am without it! ",
+        "As my first real-world experience, this opportunity enabled me to understand the importance of team-work and providing value with your actions. My key takeaway from this experience is the major improvement in my communication skills. I wouldn't be as big of an extrovert without it! ",
       ],
     },
   ];

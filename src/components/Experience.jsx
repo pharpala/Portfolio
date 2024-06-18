@@ -7,6 +7,8 @@ import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 import { div } from "three/examples/jsm/nodes/Nodes.js"
+import { resume } from "../assets/index.js"
+import { resumepdf } from "../assets/index.js"
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -69,6 +71,17 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
+      <div className="flex flex-col items-center mt-4 pb-[100px]">
+        <p className="text-xl font-semibold mb-4">Check out my resume!</p>
+        <a href={resumepdf} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+          <img
+            src={resume} 
+            alt="Resume"
+            className="w-14 h-14"
+          />
+        </a>
+      </div>
+
     </>
   )
 }
