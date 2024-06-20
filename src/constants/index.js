@@ -191,18 +191,18 @@ import {
     {
       name: "Blue Lantern",
       description:
-        "Your sophisticated React-based portal for real-time crypto prices and market insights. The application allows users to search and analyse for over 200+ coins, view market analysis, and get detailed information including 24h change, market cap, 24h high, and 24h low.",
+        "Your sophisticated React-based portal for real-time crypto prices and market insights. The application allows users to search and analyse over 200+ coins, view market analysis, and get detailed information.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "API",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "vercel",
           color: "pink-text-gradient",
         },
       ],
@@ -213,41 +213,41 @@ import {
     {
       name: "Portfolio",
       description:
-        "You are looking at it right now! The project effetively displays my strongest assets in its full splendor, from 3D models to vivid colors, this portfolio represents a piece of me.",
+        "You are looking at it right now! This React and Three.js project effectively displays my strongest assets in it's full splendor, from 3D models to vivid, dynamic colors, each element has been created to represent a piece of me.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "three.js",
+          color: "violet-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
       image: portfolio,
       source_code_link: "https://github.com/pharpala/Portfolio",
-      live_demo_link: "https://github.com/pharpala/Portfolio",
+      live_demo_link: "#",
     },
     {
       name: "Weather App",
       description:
-        "An Angular web application that fetches weather data from an external API and displays it to the user. The application is designed to be user-friendly and provides real-time weather updates for over 20,000 cities worldwide.",
+        "An Angular web application that fetches weather data with the help of third-party APIs. The application is designed to be user-friendly and provides real-time weather updates for over 20,000 cities worldwide.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Angular",
+          color: "pink-text-gradient",
         },
         {
-          name: "supabase",
+          name: "APIs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "TypeScript",
+          color: "blue-text-gradient",
         },
       ],
       image: weatherapp,
@@ -257,18 +257,18 @@ import {
     {
       name: "8-Ball Pool ",
       description:
-        "This stack web application simulates a pool game. The game features realistic physics, allowing players to enjoy a smooth and engaging experience.",
+        "This full-stack web application simulates a pool game. The game features a realistic physics C engine, a Python back-end with a sprinkle of JavaScript, allowing players to enjoy a fun and engaging experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "C",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
