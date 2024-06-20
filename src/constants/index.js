@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    bluelantern,
+    portfolio,
+    weatherapp,
+    pool,
   } from "../assets";
   
   export const navLinks = [
@@ -185,9 +189,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Blue Lantern",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Your sophisticated React-based portal for real-time crypto prices and market insights. The application allows users to search and analyse for over 200+ coins, view market analysis, and get detailed information including 24h change, market cap, 24h high, and 24h low.",
       tags: [
         {
           name: "react",
@@ -202,13 +206,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: bluelantern,
+      source_code_link: "https://github.com/pharpala/Blue-Lantern",
+      live_demo_link: "https://blue-lantern.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "You are looking at it right now! The project effetively displays my strongest assets in its full splendor, from 3D models to vivid colors, this portfolio represents a piece of me.",
       tags: [
         {
           name: "react",
@@ -223,13 +228,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/pharpala/Portfolio",
+      live_demo_link: "https://github.com/pharpala/Portfolio",
     },
     {
-      name: "Trip Guide",
+      name: "Weather App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An Angular web application that fetches weather data from an external API and displays it to the user. The application is designed to be user-friendly and provides real-time weather updates for over 20,000 cities worldwide.",
       tags: [
         {
           name: "nextjs",
@@ -244,8 +250,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: weatherapp,
+      source_code_link: "https://github.com/pharpala/Weather-App",
+      live_demo_link: "https://weather-app-2fb9a.firebaseapp.com/",
+    },
+    {
+      name: "8-Ball Pool ",
+      description:
+        "This stack web application simulates a pool game. The game features realistic physics, allowing players to enjoy a smooth and engaging experience.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pool,
       source_code_link: "https://github.com/",
+      live_demo_link: "https://vercel.com/",
     },
   ];
   

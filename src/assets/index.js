@@ -1,4 +1,3 @@
-import logo from "./portfolio-logo.png";
 import backend from "./backend-2.png";
 import creator from "./typewriter.png";
 import mobile from "./python-2.webp";
@@ -8,7 +7,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import resume from "./resume-2.png";
 import resumepdf from "./Pranay_Harpalani_resume.pdf";
-import P from "./pushing-p.png"
 import blackP from "./black-p.png"
 
 import css from "./tech/css.png";
@@ -25,22 +23,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import hp from "./hp.png";
-import teachify from "./teachify.png";
-import gdsc from "./gdsc.png";
-import mint from "./mint.png";
+import hp from "./company/hp.png";
+import teachify from "./company/teachify.png";
+import gdsc from "./company/gdsc.png";
+import mint from "./company/mint.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import bluelantern from "./projects/bluelantern.png";
+import portfolio from "./projects/portfolio.png";
+import weatherapp from "./projects/weatherapp.png";
+import pool from "./projects/pool.png";
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -61,10 +57,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -74,6 +66,9 @@ export {
   mint,
   resume,
   resumepdf,
-  P,
-  blackP
+  blackP,
+  bluelantern,
+  portfolio,
+  weatherapp,
+  pool,
 };
