@@ -24,8 +24,13 @@ const ProjectCard = ({ index, name, description,
           sm:w-[530px] w-[480px] '
         >
           <div 
-            onClick={() => window.open
-              (live_demo_link, "_blank")}
+            onClick={() => {
+              if (live_demo_link === "#") {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              } else {
+                window.open(live_demo_link, "_blank");
+              }
+            }}
             className='relative w-full h-[295px] cursor-pointer
           '>
             <img 
@@ -50,6 +55,20 @@ const ProjectCard = ({ index, name, description,
                 />
               </div>
             </div>
+          </div>
+
+          <div className='mt-5'>
+            <h3 className='text-white font-bold text-[24px]'> {name} </h3>
+            <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          </div>
+
+          <div className='mt-4 flex flex-wrap gap-2'>
+              {tags.map((tag) => (
+                <p key={tag.name} className={`text-[14px]
+                ${tag.color}`}>
+                  #{tag.name}
+                </p>
+              ))}
           </div>
         </Tilt>
       </motion.div>
