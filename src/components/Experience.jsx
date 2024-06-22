@@ -6,7 +6,6 @@ import { styles } from "../styles"
 import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
-import { div } from "three/examples/jsm/nodes/Nodes.js"
 import { resume } from "../assets/index.js"
 import { resumepdf } from "../assets/index.js"
 

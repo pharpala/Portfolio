@@ -19,9 +19,6 @@ import {
     teachify,
     gdsc,
     mint,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     bluelantern,
     portfolio,
@@ -273,8 +270,8 @@ import {
         },
       ],
       image: pool,
-      source_code_link: "https://github.com/",
-      live_demo_link: "https://vercel.com/",
+      source_code_link: "https://github.com/pharpala/8-Ball",
+      live_demo_link: "https://github.com/pharpala/8-Ball",
     },
   ];
   

@@ -8,6 +8,7 @@ import close from "./close.svg";
 import resume from "./resume-2.png";
 import resumepdf from "./Pranay_Harpalani_resume.pdf";
 import blackP from "./black-p.png"
+import nebula from "./nebula.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -28,9 +29,6 @@ import teachify from "./company/teachify.png";
 import gdsc from "./company/gdsc.png";
 import mint from "./company/mint.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import bluelantern from "./projects/bluelantern.png";
 import portfolio from "./projects/portfolio.png";
 import weatherapp from "./projects/weatherapp.png";
@@ -57,9 +55,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   hp,
   teachify,
   gdsc,
@@ -71,4 +66,5 @@ export {
   portfolio,
   weatherapp,
   pool,
+  nebula,
 };
