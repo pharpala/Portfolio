@@ -8,7 +8,6 @@ import close from "./close.svg";
 import resume from "./resume-2.png";
 import resumepdf from "./Pranay_Harpalani_resume.pdf";
 import blackP from "./black-p.png"
-import nebula from "./nebula.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -66,5 +65,4 @@ export {
   portfolio,
   weatherapp,
   pool,
-  nebula,
 };

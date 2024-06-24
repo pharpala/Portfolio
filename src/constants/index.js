@@ -132,7 +132,7 @@ import {
       iconBg: "#383E56",
       date: "Feb 2024 - Apr 2024",
       points: [
-        "At Teachify, I lead enhacements on the company's website using React, and contributed to the documentation of code changes and design updates in the team. My programming skills and confidence went through the roof, as this hands-on experience in a fast-paced environment allowed me to gain a much deeper understanding in the field.",
+        "At Teachify, I led enhacements on the company's website using React, while also contributing to the documentation of design updates. This hands-on experience in a fast-paced environment allowed me to significantly enhance my coding skills.",
       ],
     },
     {
@@ -142,7 +142,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Oct 2023 - April 2024",
       points: [
-        "I've learned so much from being a part of GDSC! By being able to organize workshops and events, I've helped over 250+ hackers learn new skills and grow their careers. I'm so grateful for everything I've experienced with GDSC, and I can't wait to see what the future holds!",
+        "I've learned so much from being a part of GDSC! By being able to organize workshops and events, I've helped over 250+ hackers learn new skills and grow their careers. I'm so grateful for everything I've experienced with the team, and I can't wait to see what the future holds!",
       ],
     },
     {
@@ -152,7 +152,7 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - Aug 2023",
       points: [
-        "As my first real-world experience, this opportunity enabled me to understand the importance of team-work and providing value with your actions. My key takeaway from this experience is the major improvement in my communication skills. I wouldn't be as big of an extrovert without it! ",
+        "As my first real-world experience, this opportunity enabled me to understand the importance of team-work and providing value with your actions. My key takeaway is the major improvement in my communication skills. I wouldn't be as big of an extrovert without them! ",
       ],
     },
   ];
@@ -160,27 +160,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Pranay stood in the top 1% of my Data Structures course thanks to his high quality programming solutions.",
+      name: "Andrew Hamilton-Wright",
+      designation: "Professor",
+      company: "University of Guelph",
+      image: "src/assets/people/AndrewHamilton.webp",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Consistently delivering high-quality work and adapting quickly to changes, Pranay stood out from the rest of his peers.",
+      name: "Basil Yusuf",
+      designation: "Software Engineer",
+      company: "Deloitte",
+      image: "src/assets/people/basil.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "The way Pranay navigates complex problems and finds solutions is what makes him a great developer.",
+      name: "Anish Kapoor",
+      designation: "Optical Engineer",
+      company: "Ciena",
+      image: "src/assets/people/kapoor.jpeg",
     },
   ];
   

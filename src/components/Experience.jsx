@@ -70,7 +70,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-      <div className="flex flex-col items-center mt-4 pb-[100px]">
+      <div className="flex flex-col items-center mt-4 pb-[80px]">
         <p className="text-xl font-semibold mb-4">Check out my resume!</p>
         <a href={resumepdf} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
           <img
@@ -80,7 +80,6 @@ const Experience = () => {
           />
         </a>
       </div>
-
     </>
   )
 }
