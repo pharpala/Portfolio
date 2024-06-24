@@ -19,6 +19,11 @@ import portfolio from "./projects/portfolio.png";
 import weatherapp from "./projects/weatherapp.png";
 import pool from "./projects/pool.png";
 
+import blank from "./people/blank-pfp.webp";
+import basil from "./people/basil.jpg";
+import anish from "./people/kapoor.jpeg";
+
+
 export {
   backend,
   creator,
@@ -38,4 +43,7 @@ export {
   portfolio,
   weatherapp,
   pool,
+  blank,
+  basil,
+  anish,
 };
