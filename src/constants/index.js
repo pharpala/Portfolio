@@ -11,6 +11,9 @@ import {
     portfolio,
     weatherapp,
     pool,
+    anish,
+    basil,
+    blank,
   } from "../assets";
   
   export const navLinks = [
@@ -96,7 +99,7 @@ import {
       name: "Andrew Hamilton-Wright",
       designation: "Professor",
       company: "University of Guelph",
-      image: "src/assets/people/blank-pfp.webp",
+      image: blank,
     },
     {
       testimonial:
@@ -104,7 +107,7 @@ import {
       name: "Basil Yusuf",
       designation: "Software Engineer",
       company: "Deloitte",
-      image: "src/assets/people/basil.jpg",
+      image: basil,
     },
     {
       testimonial:
@@ -112,7 +115,7 @@ import {
       name: "Anish Kapoor",
       designation: "Optical Engineer",
       company: "Ciena",
-      image: "src/assets/people/kapoor.jpeg",
+      image: anish,
     },
   ];
   
