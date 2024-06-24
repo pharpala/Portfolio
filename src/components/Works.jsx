@@ -116,7 +116,7 @@ const ProjectCard = ({ index, name, description,
             speed: 450,
           }}
           className='bg-tertiary p-5 rounded-2xl
-          sm:w-[530px] w-[345px] '
+          sm:w-[530px] w-[315px] '
         >
           {returnStatement()}
         </Tilt>
