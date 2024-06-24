@@ -96,7 +96,7 @@ import {
       name: "Andrew Hamilton-Wright",
       designation: "Professor",
       company: "University of Guelph",
-      image: "src/assets/people/AndrewHamilton.webp",
+      image: "src/assets/people/blank-pfp.webp",
     },
     {
       testimonial:
