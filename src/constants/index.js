@@ -14,6 +14,7 @@ import {
     anish,
     basil,
     blank,
+    vince,
   } from "../assets";
   
   export const navLinks = [
@@ -111,11 +112,11 @@ import {
     },
     {
       testimonial:
-        "The way Pranay navigates complex problems and finds solutions is what makes him a great developer.",
-      name: "Anish Kapoor",
-      designation: "Optical Engineer",
-      company: "Ciena",
-      image: anish,
+        "Pranay has all the skills to be a great SWE, he's a hardworking and reliable individual with a strong passion for developing.",
+      name: "Vince Moschella",
+      designation: "Software Engineer",
+      company: "Ansys",
+      image: vince,
     },
   ];
   

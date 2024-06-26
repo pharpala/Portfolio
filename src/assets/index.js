@@ -22,7 +22,7 @@ import pool from "./projects/pool.png";
 import blank from "./people/blank-pfp.webp";
 import basil from "./people/basil.jpg";
 import anish from "./people/kapoor.jpeg";
-
+import vince from "./people/vince.jpeg";
 
 export {
   backend,
@@ -46,4 +46,5 @@ export {
   blank,
   basil,
   anish,
+  vince,
 };
