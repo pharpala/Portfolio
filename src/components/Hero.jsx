@@ -47,7 +47,7 @@ const Hero = () => {
             ${isMobile ? 'text-[60px]' : 'text-[40px]'}`}> Hi, I'm <span className="text-[#915eff]">Pranay</span></h1>
           <p className={`${styles.heroSubText}
           text-white-100 ${isMobile ? 'text-[20px]' : 'text-[16px]'}`} >
-            I make front-end interfaces <br className="block xs:hidden"/> 
+            I turn applications <br className="block xs:hidden"/> 
             into <span className="shine"> pieces of art</span>.
           </p>
         </div>
