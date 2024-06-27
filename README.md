@@ -6,7 +6,11 @@
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-https://github.com/pharpala/Blue-Lantern/assets/128100428/085b573f-3483-45df-8335-db9b54905389
+
+
+https://github.com/pharpala/Portfolio/assets/128100428/e1228ef2-8f85-483d-ae95-3e1649f82e05
+
+
 
 ## Table of Contents
 
