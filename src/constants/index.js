@@ -7,9 +7,9 @@ import {
     teachify,
     gdsc,
     mint,
+    webacy,
     bluelantern,
     portfolio,
-    weatherapp,
     pool,
     cepssc,
     basil,
@@ -53,11 +53,11 @@ import {
   
   const experiences = [
     {
-      title: "Incoming Venture Capital & Business Analytics Extern",
-      company_name: "HP Tech Ventures",
-      icon: hp,
-      iconBg: "#E6DEDD",
-      date: "June 2024 - August 2024",
+      title: "Blockchain & Web3 Security Researcher",
+      company_name: "Webacy",
+      icon: webacy,
+      iconBg: "#36013F",
+      date: "July 2024 - August 2024",
       points: [
         ],
     },
