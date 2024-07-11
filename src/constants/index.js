@@ -11,7 +11,7 @@ import {
     portfolio,
     weatherapp,
     pool,
-    anish,
+    cepssc,
     basil,
     blank,
     vince,
@@ -122,6 +122,28 @@ import {
   
   const projects = [
     {
+      name: "CEPSSC Website",
+      description:
+        "The College of Engineering and Physical Sciences Student Council official website, focusing on responsive design and user-friendly navigation. The project showcases various forms and documents, meeting minutes, and other resources for students.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "APIs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cepssc,
+      source_code_link: "https://github.com/pharpala/cepssc",
+      live_demo_link: "https://cepssc.vercel.app/",
+    },
+    {
       name: "Blue Lantern",
       description:
         "Your sophisticated React-based portal for real-time crypto prices and market insights. The application allows users to search and analyse over 200+ coins, view market analysis, and get detailed information.",
@@ -164,29 +186,7 @@ import {
       image: portfolio,
       source_code_link: "https://github.com/pharpala/Portfolio",
       live_demo_link: "#",
-    },
-    {
-      name: "Weather App",
-      description:
-        "An Angular web application that fetches weather data with the help of third-party APIs. The application is designed to be user-friendly and provides real-time weather updates for over 20,000 cities worldwide.",
-      tags: [
-        {
-          name: "Angular",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "APIs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "TypeScript",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: weatherapp,
-      source_code_link: "https://github.com/pharpala/Weather-App",
-      live_demo_link: "https://weather-app-2fb9a.firebaseapp.com/",
-    },
+    },  
     {
       name: "8-Ball Pool ",
       description:
