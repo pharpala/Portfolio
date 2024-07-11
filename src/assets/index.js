@@ -13,6 +13,7 @@ import hp from "./company/hp.png";
 import teachify from "./company/teachify.png";
 import gdsc from "./company/gdsc.png";
 import mint from "./company/mint.png";
+import webacy from "./company/webacy.png";
 
 import bluelantern from "./projects/bluelantern.png";
 import portfolio from "./projects/portfolio.png";
@@ -37,6 +38,7 @@ export {
   teachify,
   gdsc,
   mint,
+  webacy,
   resume,
   resumepdf,
   blackP,
