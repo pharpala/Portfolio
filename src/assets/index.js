@@ -18,6 +18,7 @@ import bluelantern from "./projects/bluelantern.png";
 import portfolio from "./projects/portfolio.png";
 import weatherapp from "./projects/weatherapp.png";
 import pool from "./projects/pool.png";
+import cepssc from "./projects/cepssc.png";
 
 import blank from "./people/blank-pfp.webp";
 import basil from "./people/basil.jpg";
@@ -43,6 +44,7 @@ export {
   portfolio,
   weatherapp,
   pool,
+  cepssc,
   blank,
   basil,
   anish,
