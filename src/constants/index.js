@@ -57,7 +57,7 @@ import {
       company_name: "Webacy",
       icon: webacy,
       iconBg: "#36013F",
-      date: "July 2024 - August 2024",
+      date: "Jul 2024 - Aug 2024",
       points: [
         ],
     },
@@ -66,7 +66,7 @@ import {
       company_name: "Teachify",
       icon: teachify,
       iconBg: "#383E56",
-      date: "Feb 2024 - Apr 2024",
+      date: "Jan 2024 - Apr 2024",
       points: [
         "At Teachify, I led enhacements on the company's website using React, while also contributing to the documentation of design updates. This hands-on experience in a fast-paced environment allowed me to significantly enhance my coding skills.",
       ],
@@ -76,7 +76,7 @@ import {
       company_name: "Google Developers Student Club",
       icon: gdsc,
       iconBg: "#E6DEDD",
-      date: "Oct 2023 - April 2024",
+      date: "Sep 2023 - Apr 2024",
       points: [
         "I've learned so much from being a part of GDSC! By being able to organize workshops and events, I've helped over 250+ hackers learn new skills and grow their careers. I'm so grateful for everything I've experienced with the team, and I can't wait to see what the future holds!",
       ],
