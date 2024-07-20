@@ -3,7 +3,6 @@ import {
     backend,
     creator,
     web,
-    hp,
     teachify,
     gdsc,
     mint,
@@ -141,7 +140,7 @@ import {
       ],
       image: cepssc,
       source_code_link: "https://github.com/pharpala/cepssc",
-      live_demo_link: "https://cepssc.vercel.app/",
+      live_demo_link: "https://cepssc.com/",
     },
     {
       name: "Blue Lantern",
