@@ -4,6 +4,13 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      transformOrigin: {
+        'center': 'center',
+      },
+      scale: {
+        '80': '0.8',
+        '50': '0.5',
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",

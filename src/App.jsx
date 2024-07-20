@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 import {About, Contact, Experience, Feedbacks, 
         Hero, Navbar, Works, StarsCanvas} from "./components"
 import { Analytics } from "@vercel/analytics/react"
+import SplineModel from "./components/canvas/SplineModel"
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+          <SplineModel />
         </div>
         <About/>
         <Experience/>
