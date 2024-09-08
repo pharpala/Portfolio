@@ -121,7 +121,7 @@ import {
   
   const projects = [
     {
-      name: "CEPSSC Website",
+      name: "CEPSSC",
       description:
         "The College of Engineering and Physical Sciences Student Council official website, focusing on responsive design and user-friendly navigation. The project showcases various forms and documents, meeting minutes, and other resources for students.",
       tags: [
