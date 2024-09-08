@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import About from './About';
 import Experience from './Experience';
 import Works from './Works';
+import Loader from './Loader';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 
@@ -15,6 +16,7 @@ export {
   Works,
   Feedbacks,
   Contact,
+  Loader,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
