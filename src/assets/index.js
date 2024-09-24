@@ -14,6 +14,7 @@ import teachify from "./company/teachify.png";
 import gdsc from "./company/gdsc.png";
 import mint from "./company/mint.png";
 import webacy from "./company/webacy.png";
+import uofg from "./company/uofg.png";
 
 import bluelantern from "./projects/bluelantern.png";
 import portfolio from "./projects/portfolio.png";
@@ -39,6 +40,7 @@ export {
   gdsc,
   mint,
   webacy,
+  uofg,
   resume,
   resumepdf,
   blackP,

@@ -7,6 +7,7 @@ import {
     gdsc,
     mint,
     webacy,
+    uofg,
     bluelantern,
     portfolio,
     pool,
@@ -52,12 +53,22 @@ import {
   
   const experiences = [
     {
+      title: "Data Structures Teaching Assistant",
+      company_name: "University of Guelph",
+      icon: uofg,
+      iconBg: "#ffffff",
+      date: "Sep 2024 - Dec 2024",
+      points: [
+        ],
+    },
+    {
       title: "Blockchain & Web3 Security Researcher",
       company_name: "Webacy",
       icon: webacy,
       iconBg: "#36013F",
       date: "Jul 2024 - Aug 2024",
       points: [
+        "My work consisted of research and implementing security measures for the company's future projects. What a great experience to dive deep into the blockchain industry and the importance of security measures in the space!",
         ],
     },
     {
