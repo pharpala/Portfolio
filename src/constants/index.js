@@ -12,6 +12,7 @@ import {
     portfolio,
     pool,
     cepssc,
+    otg,
     basil,
     blank,
     vince,
@@ -132,6 +133,28 @@ import {
   
   const projects = [
     {
+      name: "Out The Groupchat",
+      description:
+        "Plan the fun! I built a sharing calendar app that makes organizing events with friends a breeze. With drag-and-drop scheduling, real-time updates, and an easy share option, this app turns planning hangouts into a fun experience, without the back-and-forth texts!",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Google Cloud",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: otg,
+      source_code_link: "https://github.com/pharpala",
+      live_demo_link: "https://outthegroupchat.ca/",
+    },
+    {
       name: "CEPSSC",
       description:
         "The College of Engineering and Physical Sciences Student Council official website, focusing on responsive design and user-friendly navigation. The project showcases various forms and documents, meeting minutes, and other resources for students.",
@@ -152,28 +175,6 @@ import {
       image: cepssc,
       source_code_link: "https://github.com/pharpala/cepssc",
       live_demo_link: "https://cepssc.com/",
-    },
-    {
-      name: "Blue Lantern",
-      description:
-        "Your sophisticated React-based portal for real-time crypto prices and market insights. The application allows users to search and analyse over 200+ coins, view market analysis, and get detailed information.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "API",
-          color: "green-text-gradient",
-        },
-        {
-          name: "vercel",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: bluelantern,
-      source_code_link: "https://github.com/pharpala/Blue-Lantern",
-      live_demo_link: "https://blue-lantern.vercel.app/",
     },
     {
       name: "Portfolio",
