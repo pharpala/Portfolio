@@ -13,9 +13,10 @@ import {
     pool,
     cepssc,
     otg,
+    hardik,
     basil,
     blank,
-    vince,
+    vince
   } from "../assets";
   
   export const navLinks = [
@@ -58,8 +59,9 @@ import {
       company_name: "University of Guelph",
       icon: uofg,
       iconBg: "#ffffff",
-      date: "Sep 2024 - Dec 2024",
+      date: "Sep 2024 - Apr 2025",
       points: [
+        "I love teaching! As a TA, I help students during my labs and office hours with their implementation of data structures. From a student who initially struggled in the course, I am grateful to be able to effectively teach some of these concepts now, as I know exactly where students might get stuck or where they might need help, really a full-circle moment for me!",
         ],
     },
     {
@@ -155,7 +157,7 @@ import {
       live_demo_link: "https://outthegroupchat.ca/",
     },
     {
-      name: "CEPSSC",
+      name: "CEPSSC Website",
       description:
         "The College of Engineering and Physical Sciences Student Council official website, focusing on responsive design and user-friendly navigation. The project showcases various forms and documents, meeting minutes, and other resources for students.",
       tags: [
@@ -199,7 +201,7 @@ import {
       live_demo_link: "#",
     },  
     {
-      name: "8-Ball Pool ",
+      name: "8-Ball Pool - School Project",
       description:
         "This full-stack web application simulates a pool game. The game features a realistic physics C engine, a Python back-end with a sprinkle of JavaScript, allowing players to enjoy a fun and engaging experience.",
       tags: [
@@ -219,6 +221,50 @@ import {
       image: pool,
       source_code_link: "https://github.com/pharpala/8-Ball",
       live_demo_link: "https://github.com/pharpala/8-Ball",
+    },
+    {
+      name: "Real Estate Agent Portfolio",
+      description:
+        "This full-stack web application simulates a pool game. The game features a realistic physics C engine, a Python back-end with a sprinkle of JavaScript, allowing players to enjoy a fun and engaging experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "APIs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hardik,
+      source_code_link: "https://github.com/pharpala",
+      live_demo_link: "https://hardikmishra.vercel.app/",
+    },
+    {
+      name: "Blue Lantern - Track your Crypto",
+      description:
+        "Your React-based portal for real-time crypto prices and market insights. The application allows users to search and analyse over 200+ coins, view market analysis, and get detailed information, so enjoy the boom!",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vercel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bluelantern,
+      source_code_link: "https://github.com/pharpala/Blue-Lantern",
+      live_demo_link: "https://blue-lantern.vercel.app/",
     },
   ];
   

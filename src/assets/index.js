@@ -22,6 +22,7 @@ import weatherapp from "./projects/weatherapp.png";
 import pool from "./projects/pool.png";
 import cepssc from "./projects/cepssc.png";
 import otg from "./projects/otg.png";
+import hardik from "./projects/hardik.png";
 
 import blank from "./people/blank-pfp.webp";
 import basil from "./people/basil.jpg";
@@ -51,6 +52,7 @@ export {
   pool,
   cepssc,
   otg,
+  hardik,
   blank,
   basil,
   anish,
