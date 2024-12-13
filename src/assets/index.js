@@ -23,6 +23,8 @@ import pool from "./projects/pool.png";
 import cepssc from "./projects/cepssc.png";
 import otg from "./projects/otg.png";
 import hardik from "./projects/hardik.png";
+import grilling from "./projects/grilling.png";
+import roasting from "./projects/roasting.png";
 
 import blank from "./people/blank-pfp.webp";
 import basil from "./people/basil.jpg";
@@ -53,6 +55,8 @@ export {
   cepssc,
   otg,
   hardik,
+  grilling,
+  roasting,
   blank,
   basil,
   anish,
