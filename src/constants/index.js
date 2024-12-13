@@ -14,6 +14,8 @@ import {
     cepssc,
     otg,
     hardik,
+    grilling,
+    roasting,
     basil,
     blank,
     vince
@@ -157,6 +159,28 @@ import {
       live_demo_link: "https://outthegroupchat.ca/",
     },
     {
+      name: "Grilling.AI",
+      description:
+        "You ever wondered who would win a rap battle between a plate and a bowl? Me neither, but my 'brainrot hackathon' project Grilling.ai has the answer. If that wasn't enough, we added the Roast Room, add a photo and be ready to get demolished by our AI fueled by pure hate.",
+      tags: [
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AWS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: roasting,
+      source_code_link: "https://github.com/JashanjotP/rap.ai",
+      live_demo_link: "https://rap-ai-jashanjotps-projects.vercel.app/",
+    },
+    {
       name: "CEPSSC Website",
       description:
         "The College of Engineering and Physical Sciences Student Council official website, focusing on responsive design and user-friendly navigation. The project showcases various forms and documents, meeting minutes, and other resources for students.",
@@ -200,6 +224,7 @@ import {
       source_code_link: "https://github.com/pharpala/Portfolio",
       live_demo_link: "#",
     },  
+    /*
     {
       name: "8-Ball Pool - School Project",
       description:
@@ -222,6 +247,28 @@ import {
       source_code_link: "https://github.com/pharpala/8-Ball",
       live_demo_link: "https://github.com/pharpala/8-Ball",
     },
+    {
+      name: "Flask Database Application",
+      description:
+        "This app shows off what Flask can do as a web framework and PostgreSQL as a database powerhouse! It's like a friendly front desk for a Companies Database, packed with tools to manage data and keep users engaged.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pool,
+      source_code_link: "https://github.com/pharpala/8-Ball",
+      live_demo_link: "https://github.com/pharpala/8-Ball",
+    },*/
     {
       name: "Real Estate Agent Portfolio",
       description:
