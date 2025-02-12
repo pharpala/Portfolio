@@ -152,7 +152,7 @@ import {
         },
         {
           name: "OpenAI",
-          color: "black-gradient",
+          color: "violet-text-gradient",
         },
       ],
       image: studentsphere,
