@@ -18,7 +18,8 @@ import {
     roasting,
     basil,
     blank,
-    vince
+    vince,
+    studentsphere
   } from "../assets";
   
   export const navLinks = [
@@ -57,7 +58,7 @@ import {
   
   const experiences = [
     {
-      title: "Data Structures Teaching Assistant",
+      title: "Data Structures & Computing Teaching Assistant",
       company_name: "University of Guelph",
       icon: uofg,
       iconBg: "#ffffff",
@@ -136,6 +137,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "The Student Sphere",
+      description:
+        "McHacks Hackathon winner! Student Sphere is a platform that provide students with tools to make off-campus living easier. Check out real reviews from your classmates, heat maps for the best places to live, and an AI Lease Checker to make sure you're getting the best deal!",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "black-gradient",
+        },
+      ],
+      image: studentsphere,
+      source_code_link: "https://github.com/pharpala",
+      live_demo_link: "https://studentsphere.co/",
+    },
     {
       name: "Out The Groupchat",
       description:
@@ -247,6 +270,7 @@ import {
       source_code_link: "https://github.com/pharpala/8-Ball",
       live_demo_link: "https://github.com/pharpala/8-Ball",
     },
+    */
     {
       name: "Flask Database Application",
       description:
@@ -268,7 +292,7 @@ import {
       image: pool,
       source_code_link: "https://github.com/pharpala/8-Ball",
       live_demo_link: "https://github.com/pharpala/8-Ball",
-    },*/
+    },/*
     {
       name: "Real Estate Agent Portfolio",
       description:
@@ -312,7 +336,7 @@ import {
       image: bluelantern,
       source_code_link: "https://github.com/pharpala/Blue-Lantern",
       live_demo_link: "https://blue-lantern.vercel.app/",
-    },
+    },*/
   ];
   
   export { services, experiences, testimonials, projects };

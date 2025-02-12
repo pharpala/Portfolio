@@ -25,6 +25,7 @@ import otg from "./projects/otg.png";
 import hardik from "./projects/hardik.png";
 import grilling from "./projects/grilling.png";
 import roasting from "./projects/roasting.png";
+import studentsphere from "./projects/studentsphere.jpg";
 
 import blank from "./people/blank-pfp.webp";
 import basil from "./people/basil.jpg";
@@ -39,15 +40,18 @@ export {
   github,
   menu,
   close,
+
   hp,
   teachify,
   gdsc,
   mint,
   webacy,
   uofg,
+  
   resume,
   resumepdf,
   blackP,
+
   bluelantern,
   portfolio,
   weatherapp,
@@ -57,6 +61,8 @@ export {
   hardik,
   grilling,
   roasting,
+  studentsphere,
+  
   blank,
   basil,
   anish,
