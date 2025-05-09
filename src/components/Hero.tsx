@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
-import { Code, Brain, Sparkles, Star, Robot, Monitor, Cpu, Database, Command } from 'lucide-react';
+import { Code, Brain, Sparkles, Star, Bot, Monitor, Cpu, Database, Command } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -136,7 +136,7 @@ const Hero = () => {
                   <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-primary/20 to-accent/20 blur-xl rotate-12"></div>
                   
                   <div className="flex items-center space-x-2 mb-2">
-                    <Robot className="text-accent" size={18} />
+                    <Bot className="text-accent" size={18} />
                     <span className="text-xs px-2 py-1 rounded-full bg-white/10">Latest Project</span>
                   </div>
                   

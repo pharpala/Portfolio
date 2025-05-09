@@ -58,7 +58,7 @@
   }
 
   .glass-card {
-    @apply bg-white/8 backdrop-blur-md border border-white/10 rounded-xl shadow-xl;
+    @apply bg-white/10 backdrop-blur-md border border-white/10 rounded-xl shadow-xl;
   }
 
   .neo-brutalism {
