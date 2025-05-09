@@ -19,6 +19,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				mono: ['Fira Code', 'monospace'],
+				syncopate: ['Syncopate', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -69,10 +74,6 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
-			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				mono: ['Fira Code', 'monospace'],
-			},
 			keyframes: {
 				'accordion-down': {
 					from: { height: '0' },
@@ -94,6 +95,36 @@ export default {
 					from: { opacity: '0', transform: 'translateX(20px)' },
 					to: { opacity: '1', transform: 'translateX(0)' },
 				},
+				'ripple': {
+					'0%': { transform: 'scale(0)', opacity: '0.5' },
+					'100%': { transform: 'scale(4)', opacity: '0' },
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'pulse-fast': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.5' },
+				},
+				'spin-slow': {
+					'0%': { transform: 'rotate(0deg)' },
+					'100%': { transform: 'rotate(360deg)' },
+				},
+				'marquee': {
+					'0%': { transform: 'translateX(0%)' },
+					'100%': { transform: 'translateX(-100%)' },
+				},
+				'gradient-x': {
+					'0%, 100%': {
+						'background-size': '200% 200%',
+						'background-position': 'left center',
+					},
+					'50%': {
+						'background-size': '200% 200%',
+						'background-position': 'right center',
+					},
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -104,9 +135,16 @@ export default {
 				'fade-in-delay-3': 'fade-in 0.6s ease-out 0.6s forwards',
 				'fade-in-right': 'fade-in-right 0.6s ease-out forwards',
 				'fade-in-left': 'fade-in-left 0.6s ease-out forwards',
+				'ripple': 'ripple 1s linear infinite',
+				'float': 'float 5s ease-in-out infinite',
+				'pulse-fast': 'pulse-fast 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+				'spin-slow': 'spin-slow 15s linear infinite',
+				'marquee': 'marquee 25s linear infinite',
+				'gradient-x': 'gradient-x 3s ease infinite',
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-conic': 'conic-gradient(from 0deg at 50% 50%, var(--tw-gradient-stops))',
 				'hero-pattern': 'linear-gradient(135deg, rgba(59, 30, 246, 0.1) 0%, rgba(153, 102, 255, 0.1) 100%)',
 			},
 		}
