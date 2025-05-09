@@ -197,4 +197,19 @@
       transform: rotate(360deg);
     }
   }
+  
+  /* New marquee animation for the tech stack ribbon */
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+    min-width: 100%;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 }
