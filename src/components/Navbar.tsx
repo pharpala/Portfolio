@@ -60,8 +60,8 @@ const Navbar = () => {
             <LayoutGrid size={16} className="text-white" />
           </div>
           <div>
-            <span className="text-white font-syncopate tracking-tighter">NEXT</span>
-            <span className="text-primary font-syncopate tracking-tighter">GEN</span>
+            <span className="text-white font-syncopate tracking-tighter">PRANAY</span>
+            <span className="text-primary font-syncopate tracking-tighter"> HARPALANI</span>
           </div>
         </a>
 

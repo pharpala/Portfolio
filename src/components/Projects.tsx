@@ -5,63 +5,63 @@ import { ArrowUpRight, Cpu, Code, Palette, TerminalSquare, Sparkles } from 'luci
 import ProjectCard from './ProjectCard';
 
 // Project categories
-const categories = ['All', 'Frontend', 'AI', 'UI/UX'];
+const categories = ['All', 'Frontend', 'AI'];
 
 // Project data
 const projectsData = [
   {
     id: 1,
-    title: 'Neural Design System',
+    title: 'The Student Sphere',
     category: 'AI',
-    tags: ['React', 'TensorFlow.js', 'Tailwind'],
-    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    tags: ['React', 'OpenAI', 'TypeScript'],
+    image: '/studentsphere.jpg',
     description: 'AI-powered design system that adapts to user behavior and interaction patterns in real-time.',
-    link: '#'
+    link: 'https://studentsphere.co/'
   },
   {
     id: 2,
-    title: 'Immersive Analytics',
+    title: 'Out The Groupchat',
     category: 'Frontend',
-    tags: ['TypeScript', 'Three.js', 'GSAP'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    tags: ['TypeScript', 'Google Cloud', 'Firebase'],
+    image: '/otg.png',
     description: 'A 3D data visualization dashboard with interactive elements and spatial data analysis.',
-    link: '#'
+    link: 'https://www.outthegroupchat.ca/'
   },
   {
     id: 3,
-    title: 'Gestural Interface',
-    category: 'UI/UX',
-    tags: ['React', 'TensorFlow.js', 'MediaPipe'],
-    image: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    description: 'Touchless interaction system using computer vision to detect and respond to hand gestures.',
-    link: '#'
+    title: 'CEPSSC Official Website',
+    category: 'Frontend',
+    tags: ['React', 'REST APIs', 'JavaScript'],
+    image: '/cepssc.png',
+    description: 'Voice-based UI system that adapts to user speech patterns and contextual commands.',
+    link: 'https://cepssc.com/'
   },
   {
     id: 4,
-    title: 'Voice Pattern AI',
+    title: 'Grilling.ai',
     category: 'AI',
-    tags: ['OpenAI API', 'React', 'Node.js'],
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    description: 'Voice-based UI system that adapts to user speech patterns and contextual commands.',
-    link: '#'
+    tags: ['OpenAI', 'AWS', 'TypeScript'],
+    image: '/grilling.ai.png',
+    description: 'Touchless interaction system using computer vision to detect and respond to hand gestures.',
+    link: 'https://rap-ai-jashanjotps-projects.vercel.app/'
   },
   {
     id: 5,
-    title: '3D Portfolio Experience',
+    title: '3D Portfolio',
     category: 'Frontend',
     tags: ['React', 'Three.js', 'Framer Motion'],
-    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: '/portfolio.png',
     description: 'Interactive 3D portfolio with WebGL-powered transitions and effects.',
     link: '#'
   },
   {
     id: 6,
-    title: 'Neurodesign Lab',
-    category: 'UI/UX',
-    tags: ['React', 'Brain.js', 'CSS Houdini'],
-    image: 'https://images.unsplash.com/photo-1535303311164-664fc9ec6532?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    title: 'Real Estate Agent Website',
+    category: 'Frontend',
+    tags: ['React', 'TailwindCSS', 'TypeScript'],
+    image: '/real state.png',
     description: 'Experimental design lab using neurological feedback to create personalized visual experiences.',
-    link: '#'
+    link: 'https://hardikmishra.vercel.app/'
   }
 ];
 
@@ -94,7 +94,7 @@ const Projects = () => {
   return (
     <section 
       id="projects" 
-      className="py-20 lg:py-32 relative"
+      className="py-20 lg:py-28 relative"
       ref={sectionRef}
     >
       {/* Dynamic background gradient following cursor */}
@@ -124,11 +124,6 @@ const Projects = () => {
       
       <div className="container relative z-10">
         <div className="max-w-2xl mx-auto text-center mb-12 space-y-4">
-          <div className="inline-flex items-center justify-center p-1 px-3 bg-white/5 backdrop-blur-sm rounded-full mb-4 gap-2 border border-white/10">
-            <Cpu size={14} className="text-primary" />
-            <span className="text-xs">FEATURED WORK</span>
-          </div>
-          
           <h2 className="text-3xl md:text-5xl font-bold relative inline-block">
             <span className="text-gradient glow-text">Innovative</span> Projects
             <div className="absolute -top-6 -right-6 text-accent rotating opacity-70">
@@ -138,7 +133,7 @@ const Projects = () => {
           
           <p className="text-muted-foreground max-w-lg mx-auto">
             Pushing the boundaries of what's possible with code and imagination.
-            Explore my selected works combining frontend wizardry with AI innovation.
+            Explore some of my work, a combination of frontend magic with AI innovation.
           </p>
         </div>
 
@@ -158,7 +153,6 @@ const Projects = () => {
               {category === 'All' && <TerminalSquare size={14} className="inline mr-2" />}
               {category === 'Frontend' && <Code size={14} className="inline mr-2" />}
               {category === 'AI' && <Cpu size={14} className="inline mr-2" />}
-              {category === 'UI/UX' && <Palette size={14} className="inline mr-2" />}
               {category}
             </button>
           ))}
@@ -189,8 +183,8 @@ const Projects = () => {
       <div className="mt-24 overflow-hidden bg-white/5 backdrop-blur-lg border-y border-white/10 py-8">
         <div className="flex animate-marquee whitespace-nowrap">
           {Array(2).fill([
-            "React", "TypeScript", "Three.js", "Tailwind CSS", "GSAP", "Next.js", 
-            "TensorFlow", "WebGL", "Framer Motion", "OpenAI", "Firebase", "GraphQL"
+            "React", "TypeScript", "Three.js", "Tailwind CSS", "AWS", "Next.js", 
+            "Python", "PostgreSQL", "Framer Motion", "OpenAI", "Firebase", "Google Cloud"
           ]).flat().map((tech, i) => (
             <div key={i} className="mx-8 flex items-center gap-2">
               <span className="inline-block w-2 h-2 bg-primary rounded-full"></span>
