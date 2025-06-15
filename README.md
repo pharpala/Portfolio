@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# My Portfolio
 
-## Project info
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-**URL**: https://lovable.dev/projects/091223c8-b569-4bb8-a58c-297e7ebf4b40
+https://github.com/pharpala/Portfolio/assets/128100428/e1228ef2-8f85-483d-ae95-3e1649f82e05
 
-## How can I edit this code?
+## Table of Contents
 
-There are several ways of editing your application.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
 
-**Use Lovable**
+## Introduction
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/091223c8-b569-4bb8-a58c-297e7ebf4b40) and start prompting.
+Welcome to my portfolio! This project is a showcase of my skills and projects. It features an interactive user interface with 3D models and animations, all designed to provide a smooth and engaging experience. The portfolio is responsive and works well on all devices, ensuring that it looks great whether you're on a desktop, tablet, or mobile phone.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+- Interactive 3D models and animations.
+- Responsive design for all devices.
+- Showcases a variety of projects.
+- Easy navigation and user-friendly interface.
+- Contact form for inquiries.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Technology Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React**: Frontend framework for building the user interface.
+- **JavaScript**: Writing the functionality and application code.
+- **Three.js**: Used for creating 3D models and animations.
+- **Framer Motion**: Library for animations.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Vercel**: Deployment of the app.
 
-Follow these steps:
+## Usage
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Open the application in your browser by clicking [here](https://pranayharpalani.com/).
+2. Navigate through the different sections to view my projects and skills.
+3. Use the contact form to get in touch with any inquiries.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Screenshots
 
-# Step 3: Install the necessary dependencies.
-npm i
+Here are some screenshots of the application in action:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Home Screen
 
-**Edit a file directly in GitHub**
+![Home Screen](public/home.png)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### About Section
 
-**Use GitHub Codespaces**
+![About Section](public/overview.png)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Projects Section
 
-## What technologies are used for this project?
+![Projects Section](public/project.png)
 
-This project is built with:
+### Contact Section
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+![Contact Section](public/contact.png)
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/091223c8-b569-4bb8-a58c-297e7ebf4b40) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes. For major changes, please open an issue first to discuss what you would like to change.

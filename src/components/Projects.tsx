@@ -13,19 +13,21 @@ const projectsData = [
     id: 1,
     title: 'The Student Sphere',
     category: 'AI',
-    tags: ['React', 'OpenAI', 'TypeScript'],
+    tags: ['TypeScript', 'OpenAI', 'Python', 'Google Maps'],
     image: '/studentsphere.jpg',
-    description: 'AI-powered design system that adapts to user behavior and interaction patterns in real-time.',
-    link: 'https://studentsphere.co/'
+    description: 'A student housing platform with AI-powered lease checks, verified reviews, and interactive heatmaps to help students find safe, affordable, and high-value rentals.',
+    link: 'https://studentsphere.co/',
+    github: "https://github.com/JashanjotP/mchacks12"
   },
   {
     id: 2,
     title: 'Out The Groupchat',
     category: 'Frontend',
-    tags: ['TypeScript', 'Google Cloud', 'Firebase'],
+    tags: ['TypeScript', 'Firebase', 'Google Cloud'],
     image: '/otg.png',
-    description: 'A 3D data visualization dashboard with interactive elements and spatial data analysis.',
-    link: 'https://www.outthegroupchat.ca/'
+    description: 'A social event planner that makes organizing with friends easy, with real-time updates, shared events, and a slick, mobile-friendly UI.',
+    link: 'https://www.outthegroupchat.ca/',
+    github: 'https://github.com/pharpala/scheduler'
   },
   {
     id: 3,
@@ -33,8 +35,9 @@ const projectsData = [
     category: 'Frontend',
     tags: ['React', 'REST APIs', 'JavaScript'],
     image: '/cepssc.png',
-    description: 'Voice-based UI system that adapts to user speech patterns and contextual commands.',
-    link: 'https://cepssc.com/'
+    description: 'Used by 1000+ students, the website for the College of Engineering & Physical Sciences Student Council, built to improve engagement and showcase events, resources, and initiatives.',
+    link: 'https://cepssc.com/',
+    github: 'https://github.com/pharpala/cepssc'
   },
   {
     id: 4,
@@ -42,8 +45,9 @@ const projectsData = [
     category: 'AI',
     tags: ['OpenAI', 'AWS', 'TypeScript'],
     image: '/grilling.ai.png',
-    description: 'Touchless interaction system using computer vision to detect and respond to hand gestures.',
-    link: 'https://rap-ai-jashanjotps-projects.vercel.app/'
+    description: 'A fun AI web app that roasts your selfies using OpenAI, built with a custom TypeScript frontend and deployed on AWS.',
+    link: 'https://rap-ai-jashanjotps-projects.vercel.app/',
+    github: 'https://github.com/JashanjotP/rap.ai'
   },
   {
     id: 5,
@@ -51,8 +55,9 @@ const projectsData = [
     category: 'Frontend',
     tags: ['React', 'Three.js', 'Framer Motion'],
     image: '/portfolio.png',
-    description: 'Interactive 3D portfolio with WebGL-powered transitions and effects.',
-    link: '#'
+    description: 'An interactive 3D developer portfolio with smooth animations built to showcase skills and projects in an immersive way.',
+    link: '#',
+    github: 'https://github.com/pharpala/Portfolio'
   },
   {
     id: 6,
@@ -60,8 +65,9 @@ const projectsData = [
     category: 'Frontend',
     tags: ['React', 'TailwindCSS', 'TypeScript'],
     image: '/real state.png',
-    description: 'Experimental design lab using neurological feedback to create personalized visual experiences.',
-    link: 'https://hardikmishra.vercel.app/'
+    description: 'A sleek, responsive website for a real estate agent, designed to highlight listings, capture leads, and build client trust with clean visuals and fast performance.',
+    link: 'https://hardikmishra.vercel.app/',
+    github: 'https://github.com/pharpala/real-estate'
   }
 ];
 
@@ -94,7 +100,7 @@ const Projects = () => {
   return (
     <section 
       id="projects" 
-      className="py-20 lg:py-28 relative"
+      className="py-20 lg:py-22 relative"
       ref={sectionRef}
     >
       {/* Dynamic background gradient following cursor */}
@@ -133,7 +139,7 @@ const Projects = () => {
           
           <p className="text-muted-foreground max-w-lg mx-auto">
             Pushing the boundaries of what's possible with code and imagination.
-            Explore some of my work, a combination of frontend magic with AI innovation.
+            Explore some of my work, a combination of frontend magic with AI.
           </p>
         </div>
 

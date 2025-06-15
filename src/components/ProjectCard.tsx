@@ -12,6 +12,7 @@ interface ProjectCardProps {
     image: string;
     description: string;
     link: string;
+    github: string;
   };
 }
 
@@ -57,7 +58,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             <a href={project.link} className="glass p-2 rounded-full hover:bg-white/20 transition-colors" target="_blank" rel="noopener noreferrer">
               <ExternalLink size={18} />
             </a>
-            <a href="#" className="glass p-2 rounded-full hover:bg-white/20 transition-colors" target="_blank" rel="noopener noreferrer">
+            <a href={project.github} className="glass p-2 rounded-full hover:bg-white/20 transition-colors" target="_blank" rel="noopener noreferrer">
               <Github size={18} />
             </a>
           </div>

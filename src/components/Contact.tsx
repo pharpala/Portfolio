@@ -54,7 +54,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 lg:py-28 relative">
+    <section id="contact" className="py-16 lg:py-22 relative">
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
 
       <div className="container relative z-10">

@@ -58,7 +58,7 @@ const workExperience = [
 
 const Timeline = () => {
   return (
-    <section id="experience" className="py-16 lg:py-28 relative overflow-hidden">
+    <section id="experience" className="py-16 lg:py-22 relative overflow-hidden">
       {/* Abstract background shapes */}
       <div className="absolute top-1/4 -left-40 w-80 h-80 bg-accent/10 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-1/3 -right-40 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}} />
