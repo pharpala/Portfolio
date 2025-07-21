@@ -57,10 +57,14 @@ const About = () => {
                 <p className="text-sm text-muted-foreground">Projects Completed</p>
               </div>
               
-              <div className="glass p-4 text-center">
-                <h3 className="text-2xl font-bold text-primary">400k</h3>
-                <p className="text-sm text-muted-foreground">Views on AI videos</p>
-              </div>
+              <a 
+                href="https://www.tiktok.com/@elpranayese" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="glass p-4 text-center block hover:scale-105 transition-transform duration-200 cursor-pointer"
+              >
+                <h3 className="text-2xl font-bold text-primary">450k</h3>                <p className="text-sm text-muted-foreground">Views on AI videos</p>
+              </a>
             </div>
           </div>
           
