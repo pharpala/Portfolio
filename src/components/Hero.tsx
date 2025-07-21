@@ -78,22 +78,21 @@ const Hero = () => {
               <Button 
                 className="btn-neo group w-full sm:w-auto"
                 size="lg"
+                onClick={() => window.location.href = '/#projects'}
               >
                 <Star className="mr-2 group-hover:rotate-45 transition-transform" size={18} />
-                <a href="/#projects">
-                  Explore Work
-                </a>
+                Explore Work
+
               </Button>
               
               <Button 
                 variant="outline" 
                 className="border border-white/20 backdrop-blur-sm w-full sm:w-auto"
                 size="lg"
+                onClick={() => window.open('https://github.com/pharpala/Portfolio', '_blank')}
               >
                 <Code className="mr-2" size={18} />
-                <a href="https://github.com/pharpala/Portfolio" target="_blank" rel="noopener noreferrer">
-                  View Source
-                </a>
+                View Source
               </Button>
             </div>
             
